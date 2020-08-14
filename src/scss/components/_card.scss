@@ -1,0 +1,11 @@
+/* === Variable and mixins overides === */
+$card-border-width: 10px;
+$card-border-color: black ;
+
+/* === Custom variables and mixins === */
+
+/* === Bootstrap Import === */
+
+@import "../../../node_modules/bootstrap/scss/card";
+
+/* === Custom styles === */
