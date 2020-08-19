@@ -5,7 +5,7 @@ import React from "react";
 import { withA11y } from "@storybook/addon-a11y";
 
 // Components
-import { Example } from ".";
+import { Example } from "./Example";
 
 // Configuración del general del componente
 export default {
