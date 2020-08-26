@@ -114,7 +114,7 @@ export const InformationDefault = (): JSX.Element => (
         <img src="src/images/info.png"></img>
       </div>
       <div className="col-11">
-        <p> A simple succes alert—check it out!</p>
+        <p> A simple info alert—check it out!</p>
       </div>
     </div>
   </div>
@@ -125,6 +125,35 @@ export const InformationTittle = (): JSX.Element => (
     <div className="row">
       <div className="col-1">
         <img src="src/images/info.png"></img>
+      </div>
+      <div className="col-11">
+        <h5> Un titulo por aqui</h5>
+        <p>
+          Y un texto contando algo <a href="#">por aqui</a>{" "}
+        </p>
+      </div>
+    </div>
+  </div>
+);
+
+export const WarningnDefault = (): JSX.Element => (
+  <div className="alert alert-warning" role="alert">
+    <div className="row">
+      <div className="col-1">
+        <img src="src/images/warning.png"></img>
+      </div>
+      <div className="col-11">
+        <p> A simple warning alert—check it out!</p>
+      </div>
+    </div>
+  </div>
+);
+
+export const WarningTittle = (): JSX.Element => (
+  <div className="alert alert-warning" role="alert">
+    <div className="row">
+      <div className="col-1">
+        <img src="src/images/warning.png"></img>
       </div>
       <div className="col-11">
         <h5> Un titulo por aqui</h5>
