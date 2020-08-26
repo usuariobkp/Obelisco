@@ -53,4 +53,31 @@ export const DangerTittle = (): JSX.Element => (
     </div>
   </div>
 );
+export const SuccessDefault = (): JSX.Element => (
+  <div className="alert alert-success" role="alert">
+    <div className="row">
+      <div className="col-1">
+        <img src="src/images/correct.png"></img>
+      </div>
+      <div className="col-11">
+        <p> A simple succes alert—check it out!</p>
+      </div>
+    </div>
+  </div>
+);
+
+export const SuccessTittle = (): JSX.Element => (
+  <div className="alert alert-success" role="alert">
+    <div className="row">
+      <div className="col-1">
+        <img src="src/images/correct.png"></img>
+      </div>
+      <div className="col-11">
+        <h5> Un titulo por aqui</h5>
+        <p>
+          Y un texto contando algo <a href="#">por aqui</a>{" "}
+        </p>
+      </div>
+    </div>
+  </div>
 );
