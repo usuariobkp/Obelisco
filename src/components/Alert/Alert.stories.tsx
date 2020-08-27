@@ -31,8 +31,18 @@ export const DangerDefault = (): JSX.Element => (
       <div className="col-1">
         <img src="src/images/cross.png"></img>
       </div>
-      <div className="col-11">
+      <div className="col-10">
         <p> A simple danger alert—check it out!</p>
+      </div>
+      <div className="col-1">
+        <button
+          type="button"
+          className="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
     </div>
   </div>
@@ -44,11 +54,21 @@ export const DangerTittle = (): JSX.Element => (
       <div className="col-1">
         <img src="src/images/cross.png"></img>
       </div>
-      <div className="col-11">
+      <div className="col-10">
         <h5> Un titulo por aqui</h5>
         <p>
           Y un texto contando algo <a href="#">por aqui</a>{" "}
         </p>
+      </div>
+      <div className="col-1">
+        <button
+          type="button"
+          className="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
     </div>
   </div>
@@ -58,11 +78,11 @@ export const DangerLinks = (): JSX.Element => (
   <div className="alert alert-danger" role="alert">
     <div className="row">
       <div className="col-1">
-        <img src="src/images/cross.png"></img>
+        <img src="../../src/images/cross.png"></img>
       </div>
-      <div className="col-11">
+      <div className="col-10">
         <h5> Un titulo por aqui</h5>
-        <ul className="list-group">
+        <ol className="list-group">
           <li className="list-group-item">
             <a href="#">Un primer linkazo</a>
           </li>
@@ -72,7 +92,17 @@ export const DangerLinks = (): JSX.Element => (
           <li className="list-group-item">
             <a href="#">Un tercer linkazo</a>
           </li>
-        </ul>
+        </ol>
+      </div>
+      <div className="col-1">
+        <button
+          type="button"
+          className="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
     </div>
   </div>

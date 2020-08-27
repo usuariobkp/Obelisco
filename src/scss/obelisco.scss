@@ -23,6 +23,7 @@ $theme-colors: map-remove($theme-colors, "light", "dark", "warning");
 @import "../../node_modules/bootstrap/scss/grid";
 @import "../../node_modules/bootstrap/scss/transitions";
 @import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/close";
 
 // Components
 @import "components/buttons";
