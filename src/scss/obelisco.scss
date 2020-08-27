@@ -29,3 +29,4 @@ $theme-colors: map-remove($theme-colors, "light", "dark", "warning");
 @import "components/card";
 @import "components/dropdown";
 @import "components/alert";
+@import "components/collapsable";

@@ -124,7 +124,7 @@ export const InformationTittle = (): JSX.Element => (
   <div className="alert alert-info" role="alert">
     <div className="row">
       <div className="col-1">
-        <img src="src/images/info.png"></img>
+        <img src="../src/images/info.png"></img>
       </div>
       <div className="col-11">
         <h5> Un titulo por aqui</h5>
