@@ -31,3 +31,11 @@ $theme-colors: map-remove($theme-colors, "light", "dark", "warning");
 
 // Components
 @import "components/buttons";
+<<<<<<< HEAD
+=======
+@import "components/card";
+@import "components/dropdown";
+@import "components/alert";
+@import "components/collapsable";
+@import "components/breadcrumb";
+>>>>>>> 7092452... primer prueba breadcrumb
