@@ -13,6 +13,8 @@ $custom-select-disabled-bg: $input-disabled-bg;
 $custom-control-indicator-checked-color: $info;
 $custom-control-indicator-active-color: $info;
 
+$font-size-sm:  $font-size-base * .813;
+
 $form-validation-states: (
   'valid': (
     'color': $form-feedback-valid-color,
