@@ -13,7 +13,12 @@ $custom-select-disabled-bg: $input-disabled-bg;
 $custom-control-indicator-checked-color: $info;
 $custom-control-indicator-active-color: $info;
 
-$font-size-sm:  $font-size-base * .813;
+$font-size-sm: $font-size-base * .813;
+
+$input-padding-y: 0.813rem;
+$input-padding-x: 1rem;
+
+$input-color: $grisulado-400;
 
 $form-validation-states: (
   'valid': (
@@ -36,6 +41,7 @@ $form-validation-states: (
 
 .form-group label {
   font-size: $font-size-sm;
+  margin-bottom: 0.25rem;
 }
 
 .bg-light {
